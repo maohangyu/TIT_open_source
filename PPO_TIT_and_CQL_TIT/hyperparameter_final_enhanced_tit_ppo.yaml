@@ -1,0 +1,25 @@
+# the performance of online-RL (e.g., PPO) is highly dependent on the evaluation environment (e.g., what kind of GPU),
+# so we opensource the hypertuning.py, and you need search your ouw hyperparameter for your own environment.
+
+MountainCar-v0:  # -97.92 7.025
+  n_timesteps: 100000
+  patch_dim: 1
+  num_blocks: 2
+  attention_dropout_inner: 0.0
+  ffn_dropout_inner: 0.0
+  attention_dropout_outer: 0.0
+  ffn_dropout_outer: 0.0
+  activation_fn_inner: 'gelu'
+  activation_fn_outer: 'gelu'
+  dim_expand_inner: 4
+  dim_expand_outer: 4
+  have_position_encoding: 1
+  share_tit_blocks: 0
+  # the above is fixed while the following is tuned
+  features_dim: 128
+  embed_dim_inner: 16
+  num_heads_inner: 4
+  embed_dim_outer: 16
+  num_heads_outer: 8
+  activation_fn_other: 'tanh'
+
