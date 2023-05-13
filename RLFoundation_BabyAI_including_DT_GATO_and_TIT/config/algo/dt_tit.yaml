@@ -1,0 +1,15 @@
+# decision transformer
+
+n_ctx: 1024
+n_embd: 128
+hidden_size: 128
+n_layer: 3
+n_head: 1
+n_inner: 512
+activation_function: "relu"
+n_position: 1024
+resid_pdrop: 0.1
+attn_pdrop: 0.1
+model_type: "dt"
+length_times: 3
+tit: True

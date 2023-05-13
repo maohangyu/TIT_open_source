@@ -1,0 +1,6 @@
+data_name: ["BabyAI-GoToRedBallGrey-v0"]
+env_name: ["BabyAI-GoToRedBallGrey-v0"]
+pct_traj: 1.0
+K: 20
+batch_size: 64
+max_ep_len: 1000

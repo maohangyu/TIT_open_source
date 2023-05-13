@@ -1,0 +1,11 @@
+data_name: "relocate-cloned-v0"
+env_name: "relocate-v0"
+max_ep_len: 200
+env_targets: [5000, 2500]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-21.950507557005587, 4713.180918633938]
+reward_scale: [-0.13278540455051674, 30.991315841674805]

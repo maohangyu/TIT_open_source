@@ -1,0 +1,11 @@
+data_name: "hopper-medium-replay-v2"
+env_name: "Hopper-v2"
+max_ep_len: 1000
+env_targets: [3600, 1800]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-1.4400691986083984, 3192.925048828125]
+reward_scale: [-1.2545479536056519, 6.385763168334961]

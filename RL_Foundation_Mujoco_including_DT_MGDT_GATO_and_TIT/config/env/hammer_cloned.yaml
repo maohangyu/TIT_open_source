@@ -1,0 +1,11 @@
+data_name: "hammer-cloned-v0"
+env_name: "hammer-v0"
+max_ep_len: 200
+env_targets: [10000, 5000]
+scale: 2000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-260.24013566970825, 9570.416120767593]
+reward_scale: [-1.927051305770874, 101.8631591796875]

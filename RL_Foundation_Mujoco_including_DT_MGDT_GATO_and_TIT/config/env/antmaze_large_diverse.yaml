@@ -1,0 +1,11 @@
+data_name: "antmaze-large-diverse-v0"
+env_name: "antmaze-large-play-v0"
+max_ep_len: 999
+env_targets: [2, 1]
+scale: 1.0
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [0., 1.]
+reward_scale: [0., 1.]

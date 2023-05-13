@@ -1,0 +1,11 @@
+data_name: "walker2d-medium-replay-v2"
+env_name: "Walker2d-v2"
+max_ep_len: 1000
+env_targets: [5000, 2500]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-50.196834564208984, 4132.00048828125]
+reward_scale: [-4.713055610656738, 8.553143501281738]

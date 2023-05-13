@@ -1,0 +1,11 @@
+data_name: "hopper-medium-v2"
+env_name: "Hopper-v2"
+max_ep_len: 1000
+env_targets: [3600, 1800]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [315.8680114746094, 3222.360595703125]
+reward_scale: [0.548995316028595, 5.944143295288086]

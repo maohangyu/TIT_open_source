@@ -1,0 +1,11 @@
+data_name: "door-cloned-v0"
+env_name: "door-v0"
+max_ep_len: 200
+env_targets: [1000, 500]
+scale: 500
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-60.68874309829196, 1136.837553024292]
+reward_scale: [-0.34398257147165034, 19.992286682128906]

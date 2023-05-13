@@ -1,0 +1,11 @@
+data_name: "walker2d-medium-expert-v2"
+env_name: "Walker2d-v2"
+max_ep_len: 1000
+env_targets: [5000, 2500]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-6.6056718826293945, 5011.693359375]
+reward_scale: [-2.557255268096924, 8.469034194946289]

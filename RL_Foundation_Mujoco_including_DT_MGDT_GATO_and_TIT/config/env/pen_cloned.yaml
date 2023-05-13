@@ -1,0 +1,11 @@
+data_name: "pen-cloned-v0"
+env_name: "pen-v0"
+max_ep_len: 100
+env_targets: [6000, 3000]
+scale: 2000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-98.1524640354733, 6096.043075561523]
+reward_scale: [-6.293779002433353, 60.98057630916589]

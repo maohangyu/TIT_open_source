@@ -1,0 +1,17 @@
+# multi-game decision transformer
+
+n_ctx: 1024
+n_embd: 128
+hidden_size: 128
+n_layer: 3
+n_head: 1
+n_inner: 512
+activation_function: "relu"
+n_position: 1024
+resid_pdrop: 0.1
+attn_pdrop: 0.1
+action_tanh: True
+model_type: "mgdt"
+length_times: 4
+sample_return: True
+num_sample_return: 256

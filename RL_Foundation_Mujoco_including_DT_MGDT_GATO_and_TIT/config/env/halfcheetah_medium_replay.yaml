@@ -1,0 +1,11 @@
+data_name: "halfcheetah-medium-replay-v2"
+env_name: "HalfCheetah-v2"
+max_ep_len: 1000
+env_targets: [12000, 6000]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-638.4852905273438, 4985.1416015625]
+reward_scale: [-3.298140287399292, 7.619414806365967]

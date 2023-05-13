@@ -1,0 +1,9 @@
+data_name: "antmaze-umaze-diverse-v0"
+env_name: "antmaze-umaze-v0"
+max_ep_len: 999
+env_targets: [2, 1]
+scale: 1.0
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64

@@ -1,0 +1,11 @@
+data_name: "halfcheetah-medium-expert-v2"
+env_name: "HalfCheetah-v2"
+max_ep_len: 1000
+env_targets: [12000, 6000]
+scale: 1000
+delayed_reward: False
+pct_traj: 1.0
+K: 20
+batch_size: 64
+return_scale: [-310.23419189453125, 11252.03515625]
+reward_scale: [-3.0135135650634766, 13.854623794555664]

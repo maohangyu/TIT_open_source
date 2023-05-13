@@ -1,0 +1,27 @@
+device: 'cuda'
+log_to_tensorboard: True
+num_steps_per_iter: 1000
+max_iters: 50
+num_eval_episodes: 100
+warmup_steps: 10000
+weight_decay: 0.0001
+learning_rate: 0.0001
+dataset_path: "./demos"
+text_max_size: 100
+word_embedding_size: 32
+env_targets: [1, 2]
+save_model: True
+step_num:
+
+tit: False
+inner:
+  n_ctx: 1024
+  n_embd: 128
+  hidden_size: 128
+  n_layer: 3
+  n_head: 1
+  n_inner: 512
+  activation_function: "relu"
+  n_position: 1024
+  resid_pdrop: 0.1
+  attn_pdrop: 0.1
