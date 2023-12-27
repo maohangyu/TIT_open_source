@@ -1,6 +1,6 @@
 # Transformer in Transformer as Backbone for Deep Reinforcement Learning
-Paper: 
-[old version](https://arxiv.org/abs/2212.14538): Transformer in Transformer as Backbone for Deep Reinforcement Learning
+Paper:   
+[old version](https://arxiv.org/abs/2212.14538): Transformer in Transformer as Backbone for Deep Reinforcement Learning  
 [new version](https://arxiv.org/abs/2312.15863): PDiT: Interleaving Perception and Decision-making Transformers for Deep Reinforcement Learning. AAMAS 2024 (full paper with oral presentation)
 
 Code: 
